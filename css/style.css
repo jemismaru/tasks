@@ -1,8 +1,8 @@
 /* Using Tag name selector */
 
 body{
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 h2{
@@ -11,15 +11,15 @@ h2{
 }
 
 form{
-    border: 3px solid white;
+    border: 3px solid #ffffff;
     max-width: 500px;
-    background-color: rgb(51, 48, 48);
+    background-color: #333030;
     margin: auto;
 }
 
 button{
-    background-color: #04aaaa;
-    color: white;
+    background-color: #04a9a9;
+    color: #ffffff;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -55,6 +55,6 @@ h2::first-letter{
 /* Using id selector */
 
 #secondCon{
-    color: black;
-    background-color:white;
+    color: #000000;
+    background-color: #ffffff;
 }
