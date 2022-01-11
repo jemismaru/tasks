@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/jquery-ui.css">
+    <script src="./js/jquery-min.js"></script>
+    <script src="./js/jquery-ui.js"></script>
+    <script src="./js/script.js"></script>
+    <title>Sign up</title>
+</head>
+<body>
+    <div class="headDiv">
+        <div class="logoDiv">
+            <img class="appleLogo" src="https://drive.google.com/uc?export=view&id=1-CCNtY40kZ3QelQl-xxl0Hzv3kKF_4lI" alt="apple-logo">
+        </div>
+        <div class="logoTextDiv">
+            <p class="logoText">Sign Up Form</p>
+        </div>
+    </div>
+    <div class="formDiv">
+        <form action="actionPage.php" method="post">
+            <div>
+                <div>
+                    <label for="uName">Name:</label>
+                </div>
+                <div>
+                    <input type="text" placeholder="Enter your name" name="uName" required>
+                </div>
+                <div class="lableDiv">
+                    <label for="bDate">Date of birth:</label>
+                </div>
+                <div>
+                    <input id="custom-input-date" type="text" placeholder="dd/mm/yyyy" name="bDate" required>
+                </div>
+                <div class="lableDiv">
+                    <label for="bDate">Gender:</label>
+                    <span class="radioSpan">
+                        <input checked="checked" type="radio" id="male" class="customRadio" name="gender">
+                        <label class="radioLabel" for="male"></label>Male
+                        <input type="radio" id="female" class="customRadio" name="gender">
+                        <label id="femaleLabel" class="radioLabel" for="female"></label>Female
+                    </span>
+                </div>
+                <div class="lableDiv">
+                    <label for="email">Email address:</label>
+                </div>
+                <div>
+                    <input type="email" placeholder="Enter your email address" name="email" required>
+                </div>
+                <div class="lableDiv">
+                    <label for="password">Password</label>
+                </div>
+                <div>
+                    <input type="password" placeholder="Enter your password" name="password" required>
+                </div>
+                <div class="lableDiv">
+                    <label for="location">Location</label>
+                </div>
+                <div>
+                    <select name="location" required>
+                        <option value="" disabled selected>Select your option</option>
+                        <option class="selectOption" value="saab">Ahmedabad</option>
+                        <option class="selectOption" value="opel">Surat</option>
+                        <option class="selectOption" value="audi">Junagadh</option>
+                    </select>
+                </div>
+                <div class="lableDiv">
+                    <label class="container">I'm agree with all 
+                        <span class="conditionSpan">terms and conditions</span>
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="btnDiv">
+                    <input type="submit" class="submitBtn" value="Sign up">
+                    <input type="button" class="submitBtn cancelBtn" value="Cancel">
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="flexDiv">
+        <div class="flex-container">
+            <div class="flex-item-left"></div>
+            <div class="flex-item-right">
+                <picture>
+                    <source media="(min-width:990px)" srcset="https://cdn.pixabay.com/photo/2015/02/06/14/42/document-626145_960_720.png">
+                    <source media="(min-width:465px)" srcset="https://cdn.pixabay.com/photo/2015/02/06/14/58/document-626162_960_720.png">
+                    <img class="pictureTag" src="https://cdn.pixabay.com/photo/2015/02/06/14/41/document-626142_960_720.png" alt="doc-image">
+                </picture>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
