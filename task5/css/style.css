@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header.navHeader nav {
+    background-color: #003865;
+}
+
+header.navHeader nav .navbar-brand {
+    color: #ffffff !important;
+}
+
+header.navHeader nav .navbar-brand .row .col img{
+    width: 50px;
+    margin: auto;
+}
+
+header.navHeader nav .navbar-brand .row .col{
+    display: flex;
+}
+
+header.navHeader nav .navbar-brand .row .col p{
+    margin: auto;
+    font-weight: bold;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #ffffff;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+header.navHeader nav div ul li a{
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.sliderSection{
+    margin-top: 70px;
+}
+
+.carouselImg{
+    height: 555px;
+    width: 100%;
+}
+
+@media all and (max-width: 768px) {
+    .carouselImg{
+        height: 400px;
+    }
+}
+
+@media all and (max-width: 576px) {
+    .carouselImg{
+        height: 300px;
+    }
+}
