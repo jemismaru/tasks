@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    background-color: #f9f9f9;
+}
+
 header.navHeader nav {
     background-color: #003865;
 }
@@ -25,26 +29,51 @@ header.navHeader nav .navbar-brand .row .col p{
     font-weight: bold;
 }
 
-.custom-toggler.navbar-toggler {
-    border-color: #ffffff;
-}
-
-.custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
 header.navHeader nav div ul li a{
     color: #ffffff !important;
     font-weight: bold;
 }
 
-.sliderSection{
+.sliderSection {
     margin-top: 70px;
 }
 
 .carouselImg{
     height: 555px;
     width: 100%;
+}
+
+.colSec{
+    padding: 30px;
+}
+
+section.colSec .container-fluid .row div {
+    background-color: #ffffff;
+    border: 10px solid #f9f9f9;
+    padding: 10px;
+}
+
+section.colSec .container-fluid .row div .colTitle {
+    text-align: center;
+    color: #003865;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footerSec{
+    background-color: #003865;
+    padding: 20px;
+}
+
+footer.footerSec .container-fluid .row div .colTitle{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer.footerSec .container-fluid .row div .colText{
+    color: #ffffff;
+    font-size: 15px;
 }
 
 @media all and (max-width: 768px) {
