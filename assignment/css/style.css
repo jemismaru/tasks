@@ -207,8 +207,8 @@
 .tranTypeFilter{
     font-size: 10px;
     position: absolute;
-    top: 5px;
-    right: 10px;
+    top: 10px;
+    right: 20px;
 }
 
 .depositChart{
@@ -222,6 +222,56 @@
 .tranTypeAmount{
     font-weight: bold;
     font-size: 15px;
+}
+
+.barChartDiv{
+    bottom: 10px;
+    padding: 50px 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.chartTitle{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.colInfo{
+    font-size: 12px;
+}
+
+.receivedDot, .spentDot, .noTranDot{
+    font-size: 10px;
+}
+
+.receivedDot{
+    color: #172b9f;
+}
+
+.spentDot{
+    color: #f52a7a;
+}
+
+.noTranDot{
+    color: #e7e8ef;
+}
+
+.selectFilter{
+    box-shadow: 0px 0px 31px -8px rgba(0,0,0,0.89);
+    -webkit-box-shadow: 0px 0px 31px -8px rgba(0,0,0,0.89);
+    -moz-box-shadow: 0px 0px 31px -8px rgba(0,0,0,0.89);
+    width: max-content;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.chartDiv{
+    margin-top: 30px;
+}
+
+.barChartImg{
+    max-width: 100%
 }
 
 .tranCol{
